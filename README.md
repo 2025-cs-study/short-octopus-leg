@@ -1,5 +1,9 @@
 # 신입 백엔드 개발자의 이것저것 잡지식 💭
 > 안녕하세요👋 이 공간은 책을 넘어 **궁금한 지식을 깊이 파고들고, 효과적으로 공유하는** `짧은 문어발🐙` 스터디 레포지토리입니다!
+<img alt="image" src="https://github.com/user-attachments/assets/35b8fb23-5cd3-4996-93b6-80c6020dd8bf" />
+
+스터디 시작(2025.07.01 ~ ) | 📝[학습 로그](https://github.com/2025-cs-study/short-octopus-leg/issues)
+
 
 ## 스터디 목표
 
@@ -18,8 +22,7 @@
 - **발표:** 각 스터디원은 준비한 내용을 **10~15분** 내외로 발표합니다. 발표 후에는 충분한 질의응답 시간을 가집니다.
 
 
-
 ## 문어 소개
-- [서희🐙](https://github.com/seohee-P)
-- [민주🐙](https://github.com/mango606)
-- 문어 무너지지마!
+|[![](https://github.com/seohee-P.png?width=150px)](https://github.com/seohee-P) |[![](https://github.com/mango606.png?width=150px)](https://github.com/mango606) |
+|:---:|:---:|
+| 서희🐙 | 민주🐙 |
