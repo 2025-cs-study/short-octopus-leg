@@ -54,6 +54,7 @@ DB 서버를 확장하지 않고 응답 시간과 처리량을 개선하고 싶�
 **단점**:
 - 처음 요청할 때는 캐시에 데이터가 없어서 느림.
 - 애플리케이션 코드에 캐시 로직이 섞여서 복잡해짐.
+- **선더링 헤드(Thundering Herd) 문제**: 캐시가 만료되거나 없을 때 동시에 많은 요청이 들어오면 모든 요청이 DB로 몰려 부하가 급증할 수 있음. 이를 방지하기 위해 락(lock) 메커니즘이나 확률적 TTL 설정 등의 기법을 사용할 수 있음.
 
 **사용 사례**: 대부분의 웹 애플리케이션에서 사용하며, 특히 읽기가 많고 모든 데이터를 캐시할 필요가 없는 경우
 
@@ -194,7 +195,7 @@ DB 서버를 확장하지 않고 응답 시간과 처리량을 개선하고 싶�
 
 ### CDN
 
-![CDN 구조와 캐싱 전략](https://github.com/user-attachments/assets/3a47f265-be97-40a0-a1cb-3e557a066bc1)
+![CDN 구조와 캐싱 전략](https://github.com/user-attachments/assets/c5643559-4eb5-4111-9242-20863d9831d4)
 
 - **CDN(Content Delivery Network)**: 콘텐츠를 제공하기 위한 별도의 네트워크
 - **CDN 서비스**: Amazon CloudFront, Akamai, Cloudflare 등
