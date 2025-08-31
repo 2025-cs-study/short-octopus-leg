@@ -10,7 +10,6 @@
 - **배치 연동** - 주기적 데이터 전송
 - **CDC(Change Data Capture)** - 실시간 데이터 변경 추적
 
----
 
 ## 비동기와 트랜잭션
 
@@ -95,7 +94,6 @@ public class DrivingServiceImpl implements DrivingService {
 
 </details>
 
----
 
 ## 메시징 시스템을 이용
 
@@ -105,9 +103,9 @@ public class DrivingServiceImpl implements DrivingService {
 
 ### AWS SQS 개요
 
-| AWS SQS 로고 | SQS 구성도 |
+| AWS SQS  | SQS 구성도 |
 |:---:|:---:|
-| <img src="/img/04_1.png" width="100px"> | <img src="/img/04_2.png"> |
+| <img src="/img/04_1.png" width="180px"> | <img src="/img/04_2.png"> |
 
 #### SQS 큐 타입
 - **Standard 큐**: 순서 보장 안됨, 높은 처리량
@@ -140,8 +138,6 @@ public class DrivingServiceImpl implements DrivingService {
 - 메시지 유실 방지
 - 정확히 1회 전송 보장
 - 모니터링 가능
-
----
 
 ## 배치 연동
 - 일정 간격으로 대량의 데이터를 한 번에 전송하는 방식
