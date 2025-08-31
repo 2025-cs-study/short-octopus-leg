@@ -58,6 +58,44 @@ spring:
 leak-detection-threshold를 60000 (1분)으로 설정하면 커넥션이 1분 이상 반환되지 않을 때 로그로 경고를 출력해서 커넥션 누수를 찾을 수 있음.
 기본값 0은 비활성화 상태임.
 
+### 프로덕션 권장 설정
+```yaml
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 20-50        # 애플리케이션 규모에 따라
+      minimum-idle: 5-10              # maximum-pool-size의 20-50%
+      connection-timeout: 20000       # 20초
+      idle-timeout: 300000            # 5분 (300,000ms)
+      max-lifetime: 1200000           # 20분 (1,200,000ms)
+      leak-detection-threshold: 60000 # 1분 (60,000ms)
+```
+- maximum-pool-size: 20-50
+  - 동시 사용자 수와 트래픽 패턴을 고려하여 설정
+  - 너무 크면 DB 커넥션 부족, 너무 작으면 대기시간 증가
+  - 일반적으로 CPU 코어 수 × 2-4 정도가 적절
+  - **모니터링을 통해 실제 사용량 기반으로 조정 필요**
+
+- minimum-idle: 5-10
+  - maximum-pool-size보다 작게 설정하여 리소스 효율성 확보
+  - 트래픽이 적은 시간대에도 최소한의 연결을 유지
+  - 갑작스런 트래픽 증가에 대응할 수 있는 여유분 확보
+
+- connection-timeout: 20000 (20초)
+  - 30초는 너무 길어서 사용자 경험 저하
+  - 20초면 DB 문제 상황에서 적절한 타임아웃
+
+- idle-timeout: 300000 (5분)
+  - 10분은 너무 길어서 불필요한 커넥션 유지
+  - 5분이면 일시적 트래픽 감소 시 적절한 정리
+  - DB 리소스 절약과 성능의 균형점
+
+- max-lifetime: 1200000 (20분)
+  - 30분은 너무 길어서 DB 측 타임아웃에 걸릴 위험
+  - 20분이면 안전하면서도 재연결 오버헤드 최소화
+  - DB의 wait_timeout 설정보다 짧게 설정
+
+
 ## 읽어보면 좋을 자료
 - [서버 증설 없이 처리하는 대규모 트래픽 - 토스](https://toss.tech/article/22563)
 - [HikariCP Dead lock에서 벗어나기 - 우아한형제들](https://techblog.woowahan.com/2663/)
