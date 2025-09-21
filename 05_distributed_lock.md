@@ -249,4 +249,4 @@ redisTemplate.execute(new DefaultRedisScript<>(script, Long.class), Arrays.asLis
 - 작업 큐를 두어서 큐에서 필요한 작업만 꺼내서 수행함.
 
 ### 참고 자료
--[Redis docs - SET](https://redis.io/docs/latest/commands/set/)
+- [Redis docs - SET](https://redis.io/docs/latest/commands/set/)
