@@ -39,7 +39,7 @@
 - Referer 헤더 검증을 통해 요청의 출처를 확인함.
 
 ## WAF (Web Application Firewall)
-- 책에서는 SQL Injection, XSS 등의 공격을 웹 방화벽(WAF)을 통해서 막을 수 있다고 설명함.
+- 책(JBD)에서는 SQL Injection, XSS 등의 공격을 웹 방화벽(WAF)을 통해서 막을 수 있다고 설명함.
 - 대표적인 예로는 Cloudflare, AWS WAF 등이 있음.
 - 인터넷과 웹 애플리케이션 사이에 배치되어 **역방향 프록시** 방식으로 작동함.
 - 클라이언트의 HTTP/HTTPS 요청이 서버에 도달하기 전에 WAF를 먼저 거치게 됨.
