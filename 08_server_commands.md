@@ -106,5 +106,5 @@ netstat -anp
 ## MacOS
 lsof -i
 ## MacOS(특정 포트만 확인하고 싶다면)
-lsof -1 :8080
+lsof -i :8080
 ```
