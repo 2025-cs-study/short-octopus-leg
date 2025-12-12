@@ -103,9 +103,9 @@ public class DrivingServiceImpl implements DrivingService {
 
 ### AWS SQS 개요
 
-| AWS SQS  | SQS 구성도 |
-|:---:|:---:|
-| <img src="/img/04_1.png" width="180px"> | <img src="/img/04_2.png"> |
+|                 AWS SQS                  |          SQS 구성도           |
+|:----------------------------------------:|:--------------------------:|
+| <img src="./img/04_1.png" width="180px"> | <img src="./img/04_2.png"> |
 
 #### SQS 큐 타입
 - **Standard 큐**: 순서 보장 안됨, 높은 처리량
