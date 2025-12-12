@@ -1,7 +1,7 @@
 # 11 | 자주 쓰는 서버 구조와 설계 패턴
 
 ## CQRS 패턴
-![img.png](./img/10_1.png)
+![img.png](img/10_1.png)
 
 ### 개념 및 배경
 - **CQRS(Command Query Responsibility Segregation)** 는 명령(Command)과 조회(Query)의 책임을 분리하는 패턴임.
