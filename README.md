@@ -24,9 +24,9 @@
 
 
 ## 학습 교재
-|                                                     주니어 백엔드 개발자가<br> 반드시 알아야 할 실무 지식                                                      |                                                                요즘 당근 AI 개발                                                                | (추가 예정) |
-|:---:|:---:|:---:|
-| [![image](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791169213745.jpg)](https://product.kyobobook.co.kr/detail/S000216376461) | [![image](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791194383475.jpg)](https://product.kyobobook.co.kr/detail/S000061695652) |         |
+|                                                     주니어 백엔드 개발자가<br> 반드시 알아야 할 실무 지식                                                      |                                                                요즘 당근 AI 개발                                                                |
+|:---:|:---:|
+| [![image](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791169213745.jpg)](https://product.kyobobook.co.kr/detail/S000216376461) | [![image](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791194383475.jpg)](https://product.kyobobook.co.kr/detail/S000061695652) |
 
 ## 문어 소개
 |[![](https://github.com/seohee-P.png?width=150px)](https://github.com/seohee-P) |[![](https://github.com/mango606.png?width=150px)](https://github.com/mango606) |
