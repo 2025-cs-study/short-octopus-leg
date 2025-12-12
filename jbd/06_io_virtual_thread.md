@@ -106,7 +106,7 @@
         }
     }
     ```
-  <img src="img/06_1.png" width="400px">
+  <img src="./img/06_1.png" width="400px">
     </details>
 
 ## 경량 스레드 사용 시 주의사항
