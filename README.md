@@ -1,5 +1,6 @@
 # 신입 백엔드 개발자의 이것저것 잡지식 💭
 > 안녕하세요👋 이 공간은 책을 넘어 **궁금한 지식을 깊이 파고들고, 효과적으로 공유하는** `짧은 문어발🐙` 스터디 레포지토리입니다!
+
 <img alt="image" src="https://github.com/user-attachments/assets/35b8fb23-5cd3-4996-93b6-80c6020dd8bf" />
 
 스터디 시작(2025.07.01 ~ ) | 📝[학습 로그](https://github.com/2025-cs-study/short-octopus-leg/issues)
@@ -21,6 +22,11 @@
   - 4️⃣ 스터디 시간에 각자 준비한 내용을 발표하고, 이에 대한 질의응답 및 자유로운 토론을 진행합니다.
 - **발표:** 각 스터디원은 준비한 내용을 **10~15분** 내외로 발표합니다. 발표 후에는 충분한 질의응답 시간을 가집니다.
 
+
+## 학습 교재
+|                                                     주니어 백엔드 개발자가<br> 반드시 알아야 할 실무 지식                                                      |                                                                요즘 당근 AI 개발                                                                | (추가 예정) |
+|:---:|:---:|:---:|
+| [![image](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791169213745.jpg)](https://product.kyobobook.co.kr/detail/S000216376461) | [![image](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791194383475.jpg)](https://product.kyobobook.co.kr/detail/S000061695652) |         |
 
 ## 문어 소개
 |[![](https://github.com/seohee-P.png?width=150px)](https://github.com/seohee-P) |[![](https://github.com/mango606.png?width=150px)](https://github.com/mango606) |
