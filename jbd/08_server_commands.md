@@ -6,7 +6,7 @@
 - /etc/sudoers 파일을 수정할 때는 `visudo` 명령어를 사용함.
 - /etc/sudoers 파일을 살펴보면 아래와 같은 설정을 볼 수 있음.
 
-    <img src="./img/08_1.png" width="300px">
+    <img src="img/08_1.png" width="300px">
     
     ``` text
     root ALL = (ALL) ALL
@@ -89,7 +89,7 @@ alias cdweb='cd /var/www/html'
     - v: 추가 정보를 출력하는 옵션(사용하는 것을 권장)
     - u: UDP 포트가 열려 있는지 여부를 확인하는 옵션
 
-  <img src="./img/08_3.png" width="300px">
+  <img src="img/08_3.png" width="300px">
 
 ## `netstat` 명령어
 - `netstat` 명령어를 사용하면 현재 서버에서 열려 있는 서버 포트를 확인할 수 있음.

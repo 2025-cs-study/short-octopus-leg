@@ -27,7 +27,7 @@
 
 ## 성능 테스트 도구
 ### Locust
-<img src="./img/11_1.jpg" width=30%>
+<img src="img/11_1.jpg" width=30%>
 
 - 메뚜기 떼가 작물을 갉아먹듯이, 수많은 가상 사용자가 시스템에 요청을 쏟아붓는 부하를 시뮬레이션한다는 뜻임.
 #### 부하 테스트 과정
@@ -61,7 +61,7 @@
     ```shell
     locust -f app.py
     ```
-    <img src="./img/11_2.png" width="4500px">
+    <img src="img/11_2.png" width="4500px">
     
   ![img.png](img/11_3.png)
 
