@@ -321,11 +321,11 @@ def get_users():
 2. 보안 취약점
 
 ```javascript
-// 나쁜 예: AI가 민감 정보 하드코딩
+// ❌ 나쁜 예: AI가 민감 정보 하드코딩
 const apiKey = "sk_live_abcd1234";
 const dbPassword = "mypassword123";
 
-// 좋은 예: 반드시 환경 변수로 수정
+// ⭕ 좋은 예: 반드시 환경 변수로 수정
 const apiKey = process.env.API_KEY;
 const dbPassword = process.env.DB_PASSWORD;
 ```
